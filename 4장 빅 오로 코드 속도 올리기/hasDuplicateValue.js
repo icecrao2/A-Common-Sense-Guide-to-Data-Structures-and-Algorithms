@@ -10,7 +10,6 @@ function hasDuplicateValue(array) {
         } else if(existingNumbers[array[idx]] == true){
             return true;
         }
-        
     }
 
     return false;
