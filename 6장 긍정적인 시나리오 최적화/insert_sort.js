@@ -10,7 +10,7 @@ function insertSort(array) {
 
             if(tempData < array[idx]) {
                 array[idx + 1] = array[idx];
-            } else {
+            } else if(tempData >= array[idx] && idx != standardIdx){
                 array[idx + 1] = tempData;
                 break;
             }
