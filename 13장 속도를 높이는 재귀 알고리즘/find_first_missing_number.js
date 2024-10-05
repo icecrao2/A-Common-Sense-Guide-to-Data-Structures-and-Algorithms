@@ -15,3 +15,4 @@ function findFirstMissingNumber(array) {
 
 var result = findFirstMissingNumber([1,4,5,3,6,7,8,9,0]);
 console.log(result);
+
